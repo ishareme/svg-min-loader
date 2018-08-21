@@ -1,0 +1,26 @@
+{
+  "name": "svg-min-loader",
+  "version": "1.0.2",
+  "description": "A svg compression tool for webpack loader",
+  "main": "lib/index.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "author": {
+    "name": "ShineTomorrow",
+    "email": "hmz@meitu.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1"
+  }
+}
